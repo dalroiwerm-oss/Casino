@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  min-height: 100dvh;
+  min-height: -webkit-fill-available;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: #020617;
+  color: #f1f5f9;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+/* iOS Safari Dynamic Viewport Height & Safe Area Variables */
+:root {
+  --app-height: 100dvh;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-left: env(safe-area-inset-left, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
+}
+
+/* Ensure images and tables don't cause unwanted horizontal overflow */
+img, svg, video, canvas, audio, iframe, embed, object {
+  max-width: 100%;
+}

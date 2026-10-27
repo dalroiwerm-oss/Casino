@@ -1,0 +1,30 @@
+[
+  {
+    "id": "usr_mobile_demo_1",
+    "name": "Tài Khoản iPhone (Demo)",
+    "chips": 75000,
+    "avatarColor": "#10b981",
+    "isAdmin": false,
+    "role": "player",
+    "createdAt": "2026-10-27T04:50:00.278Z",
+    "lastActive": 1793083822895,
+    "deviceType": "mobile",
+    "handsPlayed": 14,
+    "handsWon": 6,
+    "biggestPotWon": 12000
+  },
+  {
+    "id": "usr_tablet_demo_2",
+    "name": "Khách iPad Air (Demo)",
+    "chips": 50000,
+    "avatarColor": "#3b82f6",
+    "isAdmin": false,
+    "role": "player",
+    "createdAt": "2026-10-27T01:50:00.279Z",
+    "lastActive": 1793083680279,
+    "deviceType": "tablet",
+    "handsPlayed": 32,
+    "handsWon": 15,
+    "biggestPotWon": 35000
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "name": "Game Hub Arena - Sòng Bài Trực Tuyến",
+  "description": "Nền tảng sòng bài & game bài trực tuyến nhiều người chơi: Poker Texas Hold'em, Tiến Lên Miền Nam, Quay Hũ, Xì Dách.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
